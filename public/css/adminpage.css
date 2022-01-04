@@ -1,0 +1,120 @@
+
+.Menu{
+    width:  80%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 57px;
+}
+
+
+
+.ContentMenu {
+    width:  100%;
+    margin: 0 auto;
+    background-color: #ffffff;
+    height: 57px;
+}
+
+.Logo{
+    width: 20%;
+    background-color: chartreuse;
+    height: 57px;
+    float: left;
+    
+}
+
+
+.img {
+    display: block;
+    width: auto;
+    height: auto;
+}
+
+.MainMenu {
+    float: right;
+}
+
+.Bar {
+    width: 50%;
+    background-color: rgb(172, 37, 55);
+    height: 57px;
+}
+ul li {
+    list-style: none;
+    float: left;
+    padding: 20px;
+}
+
+ul.MainMenu li a {
+    text-decoration: none;
+    color: #7B68EE;
+}
+
+
+.Body {
+    background-color: rgb(211,211,211);
+    height: 850px;
+    width: 100%;
+    background-image: url(https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.pinterest.com%2Fpin%2F812196114021866749%2F&psig=AOvVaw3FRrGnnRT-1RYKF9QAmixT&ust=1634919464396000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCJi2rOfz2_MCFQAAAAAdAAAAABAV);
+    background-size: 100% auto;
+}
+
+.Content {
+    background-color: white;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+
+
+.TTGiangVien {
+    background-color: blueviolet;
+    height: 30%;
+    width: 40%;
+    padding-top: 50px;
+    
+}
+
+.ThongBao {
+    background-color: rgb(43, 226, 202);
+    height: 30%;
+    width: 40%;
+    padding-top: 50px;
+   
+}
+.Body .Content .Space {
+    background-color: rgb(211,211,211);
+    height: 10px;
+    width: 100%;
+}
+
+
+
+.Body .Content #Text {
+    background-color: rgb(255, 255, 255);
+    height: 85%;
+    width: 90%;
+    float: inline-end;
+    margin: 0 auto;
+}
+
+.Body .Content #Text .SearchContent {
+    height: 75px;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+.info {
+    background-color: black;
+    height: 300px;
+    width: 100%;
+}
+
+.info .thongtin {
+    background-color: aqua;
+    height: 350px;
+    width: 150px;
+    display: inline;
+}

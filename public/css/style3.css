@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.section_head .container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+.section_head .container .contents{
+    text-align: center;
+}
+.section_head .container .contents .head span{
+    font-weight: 600;
+}
+.section_head .container hr.head{
+    margin: 10px 0;
+    background: rgb(3, 109, 50);
+    height: 4px;
+}
+
+.section_head .container .contents.two .times span{
+    font-weight: 600;
+}
+
+.section_head .container .contents.two .total_question span{
+    font-weight: 600;
+}
+
+.section_head .container hr.footer{
+    margin: 10px 0;
+    background: rgb(3, 109, 50);
+    height: 4px;
+}
+/* ======================================== */
+section.question .container{
+    max-width: 1440px;
+    margin: 0 auto;
+}
+section.question .container .question{
+    margin-bottom: 20px;
+}
+section.question .container .question .title{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.question .container .question .title h5{
+    flex-basis: 3%;
+    font-weight: 600;
+}
+section.question .container .question .title span{
+    flex-basis: 95%;
+    font-weight: 400;
+}
+section.question .container .anwser{
+    margin-top: 5px;
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    word-break: break-word;
+}
+section.question .container .anwser .ex{
+    padding: 5px 10px;
+}
+section.question .container .anwser .ex div{
+    display: flex;
+    flex-wrap: wrap;
+}
+section.question .container .anwser .ex div h5{
+    flex-basis: 5%;
+}
+section.question .container .anwser .ex div span{
+    flex-basis: 90%;
+}    
